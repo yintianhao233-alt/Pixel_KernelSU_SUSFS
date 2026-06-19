@@ -90,7 +90,7 @@ jobs:
         fi
 
         AOSP_MIRROR=https://android.googlesource.com
-        BRANCH=main-kernel-2025
+        BRANCH=android-gs-pantah-6.1-android14
         git clone $AOSP_MIRROR/kernel/prebuilts/build-tools -b $BRANCH --depth 1 kernel-build-tools
         git clone $AOSP_MIRROR/platform/system/tools/mkbootimg -b $BRANCH --depth 1 mkbootimg
   
